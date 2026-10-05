@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Edmund Eric Gah — Research & Certificates</title>
+<meta name="description" content="Research and verified certificates of Edmund Eric (Seyram) Gah, AI/ML researcher.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #faf8f4; --surface: #ffffff; --ink: #1b1d22; --muted: #5f6470; --faint: #8a8f99;
+    --line: #e6e2d9; --accent: #1f4e79; --accent-soft: #e8eef5; --gold: #9a6b14; --gold-soft: #f6eedc;
+    --radius: 12px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #121417; --surface: #1a1d22; --ink: #eceae6; --muted: #a3a8b2; --faint: #7d838e;
+      --line: #2a2e35; --accent: #8db8e3; --accent-soft: #1d2a38; --gold: #e0b45c; --gold-soft: #2b2416;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.55 Inter, system-ui, sans-serif; }
+  a { color: var(--accent); }
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 0 20px; }
+
+  header { padding: 64px 0 40px; border-bottom: 1px solid var(--line); }
+  .eyebrow { font-size: 13px; letter-spacing: .08em; text-transform: uppercase; color: var(--faint); margin: 0 0 10px; }
+  h1 { font-family: Fraunces, Georgia, serif; font-weight: 650; font-size: clamp(32px, 5vw, 48px); line-height: 1.1; margin: 0 0 10px; letter-spacing: -.01em; }
+  .tagline { color: var(--muted); font-size: 18px; margin: 0 0 24px; max-width: 640px; }
+  .stats { display: flex; flex-wrap: wrap; gap: 28px; margin: 0; padding: 0; list-style: none; }
+  .stats b { display: block; font-family: Fraunces, Georgia, serif; font-size: 28px; font-weight: 650; line-height: 1.1; }
+  .stats span { font-size: 13px; color: var(--muted); }
+  .profile-links { margin-top: 24px; display: flex; gap: 16px; flex-wrap: wrap; font-size: 14px; }
+
+  section { padding: 48px 0 8px; }
+  h2 { font-family: Fraunces, Georgia, serif; font-weight: 650; font-size: 26px; margin: 0 0 6px; }
+  .section-note { color: var(--muted); margin: 0 0 24px; font-size: 15px; }
+
+  .research { display: grid; gap: 16px; }
+  .paper { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px 24px; }
+  .badge { display: inline-block; font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 99px; background: var(--gold-soft); color: var(--gold); margin-bottom: 10px; }
+  .paper h3 { font-family: Fraunces, Georgia, serif; font-size: 20px; font-weight: 650; margin: 0 0 4px; line-height: 1.3; }
+  .paper .venue { color: var(--muted); font-size: 14px; margin: 0 0 10px; }
+  .paper p { margin: 0 0 12px; font-size: 15px; }
+  .paper .links { display: flex; gap: 16px; font-size: 14px; font-weight: 500; }
+
+  .controls { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 20px; }
+  .search { flex: 1 1 240px; min-width: 0; font: inherit; font-size: 15px; padding: 10px 14px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); color: var(--ink); }
+  .search:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+  .chip { font: inherit; font-size: 13px; font-weight: 500; padding: 7px 12px; border-radius: 99px; border: 1px solid var(--line); background: var(--surface); color: var(--muted); cursor: pointer; }
+  .chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--surface); }
+  .chip .n { opacity: .7; margin-left: 4px; }
+
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 12px; }
+  .cert { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 18px; display: flex; flex-direction: column; gap: 4px; }
+  .cert.featured { border-color: color-mix(in srgb, var(--gold) 45%, var(--line)); }
+  .cert h4 { margin: 0; font-size: 15px; font-weight: 600; line-height: 1.35; }
+  .cert .meta { font-size: 13px; color: var(--muted); }
+  .cert .foot { margin-top: auto; padding-top: 10px; display: flex; justify-content: space-between; align-items: center; font-size: 13px; gap: 8px; }
+  .cert .foot a { font-weight: 600; text-decoration: none; }
+  .cert .foot a:hover { text-decoration: underline; }
+  .cert .cat { color: var(--faint); font-size: 12px; }
+  .cert .nolink { color: var(--faint); font-size: 12px; }
+  .empty { color: var(--muted); padding: 24px 0; }
+
+  footer { padding: 48px 0 56px; color: var(--faint); font-size: 13px; }
+
+  @media (max-width: 520px) {
+    .wrap { padding: 0 16px; }
+    header { padding-top: 40px; }
+    .stats { gap: 20px; }
+    .paper { padding: 18px; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <p class="eyebrow">Research &amp; Credentials</p>
+    <h1>Edmund Eric (Seyram) Gah</h1>
+    <p class="tagline">AI/ML researcher working at the intersection of machine learning and real-world impact. Below are my research and the certificates I have earned, with links to verify them directly with each issuer.</p>
+    <ul class="stats" id="stats"></ul>
+    <div class="profile-links">
+      <a href="https://www.linkedin.com/in/edmund-eric-gah/">LinkedIn profile ↗</a>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section id="research">
+    <h2>Research</h2>
+    <p class="section-note">Independent research investigations.</p>
+    <div class="research" id="research-list"></div>
+  </section>
+
+  <section id="certificates">
+    <h2>Certificates</h2>
+    <p class="section-note">Newest first. “Verify” opens the official record from the issuer; “View” opens a copy of the certificate.</p>
+    <div class="controls">
+      <input class="search" id="q" type="search" placeholder="Search by course or issuer…" aria-label="Search certificates">
+    </div>
+    <div class="chips" id="chips" role="group" aria-label="Filter by category" style="margin-bottom:20px"></div>
+    <div class="grid" id="grid"></div>
+    <p class="empty" id="empty" hidden>No certificates match that search.</p>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">Last updated October 2026.</div>
+</footer>
+
+<script src="data.js"></script>
+<script>
+  const FEATURED_ISSUERS = ["University of Pennsylvania", "Stanford University", "DeepLearning.AI"];
+  const MONTHS = { Jan:1, Feb:2, Mar:3, Apr:4, May:5, Jun:6, Jul:7, Aug:8, Sep:9, Oct:10, Nov:11, Dec:12 };
+  const dateKey = d => { const [m, y] = (d || "").split(" "); return y ? +y * 100 + (MONTHS[m] || 0) : 0; };
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;" }[c]));
+
+  const certs = window.CERTS.slice().sort((a, b) => dateKey(b.date) - dateKey(a.date));
+  const issuers = new Set(certs.map(c => c.issuer));
+
+  document.getElementById("stats").innerHTML = [
+    [certs.length, "certificates"],
+    [issuers.size, "issuing organizations"],
+    [window.RESEARCH.length, window.RESEARCH.length === 1 ? "research investigation" : "research investigations"],
+  ].map(([n, l]) => `<li><b>${n}</b><span>${l}</span></li>`).join("");
+
+  document.getElementById("research-list").innerHTML = window.RESEARCH.map(r => `
+    <article class="paper">
+      <span class="badge">${esc(r.status)}</span>
+      <h3>${esc(r.title)}</h3>
+      <p class="venue">${esc(r.venue)}${r.date ? " · " + esc(r.date) : ""}</p>
+      <p>${esc(r.summary)}</p>
+      <div class="links">${r.links.map(l => `<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label)} ↗</a>`).join("")}</div>
+    </article>`).join("");
+
+  const cats = ["All", ...new Set(certs.map(c => c.category))];
+  const counts = c => c === "All" ? certs.length : certs.filter(x => x.category === c).length;
+  let activeCat = "All";
+  const chips = document.getElementById("chips");
+  chips.innerHTML = cats.map(c => `<button class="chip" aria-pressed="${c === "All"}" data-cat="${esc(c)}">${esc(c)}<span class="n">${counts(c)}</span></button>`).join("");
+  chips.addEventListener("click", e => {
+    const b = e.target.closest(".chip"); if (!b) return;
+    activeCat = b.dataset.cat;
+    chips.querySelectorAll(".chip").forEach(x => x.setAttribute("aria-pressed", x === b));
+    render();
+  });
+
+  const q = document.getElementById("q");
+  q.addEventListener("input", render);
+
+  function render() {
+    const term = q.value.trim().toLowerCase();
+    const list = certs.filter(c =>
+      (activeCat === "All" || c.category === activeCat) &&
+      (!term || (c.name + " " + c.issuer).toLowerCase().includes(term)));
+    document.getElementById("grid").innerHTML = list.map(c => `
+      <article class="cert${FEATURED_ISSUERS.includes(c.issuer) ? " featured" : ""}">
+        <h4>${esc(c.name)}</h4>
+        <div class="meta">${esc(c.issuer)}${c.date ? " · " + esc(c.date) : ""}</div>
+        <div class="foot">
+          <span class="cat">${esc(c.category)}</span>
+          ${c.url ? `<a href="${esc(c.url)}" target="_blank" rel="noopener">Verify ↗</a>`
+            : c.image ? `<a href="${esc(c.image)}" target="_blank" rel="noopener">View ↗</a>`
+            : `<span class="nolink">${c.id ? "ID " + esc(c.id) : "Certificate on file"}</span>`}
+        </div>
+      </article>`).join("");
+    document.getElementById("empty").hidden = list.length > 0;
+  }
+  render();
+</script>
+</body>
+</html>
