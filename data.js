@@ -1,19 +1,155 @@
-// Generated from LinkedIn on 2026-10-05; titles checked against each certificate. Edit freely.
+// Research, honors and certificates from LinkedIn (updated 2026-10-13). Edit freely.
 window.RESEARCH = [
-  {
-    "title": "Can pure Transformers outperform CNNs? A critical investigation of Vision Transformers",
-    "venue": "Project Q2 Research Investigation Challenge 2026",
-    "status": "Top 10 finalist",
-    "date": "Aug 2026",
-    "org": "Project Q2",
-    "summary": "Examined ViT architecture and assumptions, the role of large-scale pre-training, ViT vs. CNN performance under different data regimes, reproducibility concerns around proprietary datasets, and knowledge distillation as a path to practical ViTs.",
-    "links": [
-      {
-        "label": "Write-up",
-        "url": "https://www.linkedin.com/feed/update/urn:li:activity:7495540987877048320/"
-      }
-    ]
-  }
+ {
+  "title": "CausalInvariantFlow: Calibrated Physics-constrained Flow Matching for Rare-event Forecasting in Chaotic Dynamical Systems under Known Interventions",
+  "kind": "Preprint",
+  "venue": "SSRN",
+  "date": "Oct 2026",
+  "area": "Scientific machine learning",
+  "summary": "A calibrated, physics-constrained flow-matching approach for forecasting rare events in chaotic dynamical systems when interventions on the system are known.",
+  "links": [
+   {
+    "label": "Read on SSRN",
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7575559"
+   }
+  ]
+ },
+ {
+  "title": "A Reproducible In-Silico Sensitivity Analysis of Glucose-Insulin Dynamics Using the Bergman Minimal Model",
+  "kind": "Preprint",
+  "venue": "SSRN",
+  "date": "Oct 2026",
+  "area": "Computational physiology",
+  "summary": "A reproducible computational study of how glucose-insulin dynamics respond to changes in the parameters of the Bergman minimal model.",
+  "links": [
+   {
+    "label": "Read on SSRN",
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7567002"
+   }
+  ]
+ },
+ {
+  "title": "SymFM: Physics-Informed, Dimensionality-Aware Symbolic Regression for Governing Equation Discovery in High-Dimensional Nonlinear Dynamical Systems",
+  "kind": "Preprint",
+  "venue": "SSRN",
+  "date": "Aug 2026",
+  "area": "Scientific machine learning",
+  "summary": "A symbolic regression method that uses physical knowledge and dimensional awareness to discover the governing equations of high-dimensional nonlinear dynamical systems.",
+  "links": [
+   {
+    "label": "Read on SSRN",
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7345982"
+   }
+  ]
+ },
+ {
+  "title": "E(3)-Equivariant Graph Autoencoder for Cryptic Binding Pocket Prediction on Undruggable Cancer Proteins",
+  "kind": "Conference",
+  "venue": "ICAICDSCB 2026, Toronto",
+  "status": "Accepted for presentation",
+  "date": "2026",
+  "area": "Computational biology",
+  "coauthored": true,
+  "summary": "Co-authored paper introducing EGA-CryptoPocket, an unsupervised framework that combines equivariant graph neural networks, variational latent representations and physics-informed rigidity constraints to find hidden binding sites on proteins without labeled data. Evaluated on CryptoSite benchmarks and unseen cancer targets such as KRAS G12D.",
+  "links": []
+ },
+ {
+  "title": "Can Pure Transformers Outperform CNNs? A Critical Investigation of Vision Transformers",
+  "kind": "Competition",
+  "venue": "Project Q2 Research Investigation Challenge 2026",
+  "status": "Top 10 finalist",
+  "date": "Aug 2026",
+  "area": "Computer vision",
+  "summary": "Examined whether Vision Transformers beat CNNs because of their architecture or because of scale: the role of large-scale pre-training, performance under different data regimes, reproducibility concerns around proprietary datasets, and knowledge distillation.",
+  "links": [
+   {
+    "label": "Write-up",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7495540987877048320/"
+   },
+   {
+    "label": "Certificate",
+    "url": "certificates/project-q2-research-investigation.jpg"
+   }
+  ]
+ },
+ {
+  "title": "Algorithmic Fairness in Clinical Machine Learning for Non-Communicable Disease Prediction in Sub-Saharan Africa: A Systematic Review, Empirical Analysis, and Research Agenda",
+  "kind": "Preprint",
+  "venue": "Zenodo",
+  "date": "May 2026",
+  "area": "Fair clinical AI",
+  "summary": "Systematic review of 47 studies (2015 to 2026). Only 17% evaluated fairness at all, 6.4% used formal fairness metrics, and 25.5% used African patient data. Proposes a five-pillar research agenda for equitable clinical AI in the region.",
+  "links": [
+   {
+    "label": "Read paper",
+    "url": "https://doi.org/10.5281/zenodo.20417981"
+   }
+  ]
+ },
+ {
+  "title": "Early Detection of Cardiovascular Disease Using Machine Learning: A Sex-Stratified Fairness-Aware Study for Low-Resource Clinical Settings in Sub-Saharan Africa",
+  "kind": "Preprint",
+  "venue": "Zenodo",
+  "date": "May 2026",
+  "area": "Fair clinical AI",
+  "summary": "Compared eight models on 1,100 patient records. SVM reached an AUC-ROC of 0.927 and SHAP pointed to thalassemia status and ST depression as key predictors. A sex-stratified analysis found lower recall for female patients (80.0% vs 85.9%), mirroring known CVD underdiagnosis in women.",
+  "links": [
+   {
+    "label": "Read paper",
+    "url": "https://doi.org/10.5281/zenodo.20373324"
+   }
+  ]
+ },
+ {
+  "title": "Early Detection of Type 2 Diabetes Using Machine Learning: A Fairness-Aware Study for Underserved Populations",
+  "kind": "Preprint",
+  "venue": "Zenodo",
+  "status": "Submitted to PLOS Digital Health",
+  "date": "May 2026",
+  "area": "Fair clinical AI",
+  "summary": "Compared seven models for early Type 2 diabetes prediction, with Random Forest reaching an AUC-ROC of 0.823. SHAP highlighted glucose, BMI and age, and a fairness analysis across age and BMI subgroups revealed performance gaps relevant to screening in West Africa.",
+  "links": [
+   {
+    "label": "Read paper",
+    "url": "https://doi.org/10.5281/zenodo.20348652"
+   }
+  ]
+ }
+];
+
+window.HONORS = [
+ {
+  "title": "Special Honor",
+  "org": "International Youth Math Challenge (IYMC)",
+  "date": "Oct 2026",
+  "detail": "Qualification Round, 2026"
+ },
+ {
+  "title": "Top 10 Finalist",
+  "org": "Project Q2 Research Investigation Challenge",
+  "date": "Aug 2026",
+  "detail": "In collaboration with Microsoft",
+  "url": "certificates/project-q2-research-investigation.jpg"
+ },
+ {
+  "title": "Global Excellence Award in Quantum Computing",
+  "org": "Integrated Mathematics Tournament",
+  "date": "Jun 2026",
+  "detail": ""
+ },
+ {
+  "title": "2x Gold Medalist",
+  "org": "Vanda Science Olympiad",
+  "date": "",
+  "detail": "Two gold medals for scientific reasoning and problem solving"
+ },
+ {
+  "title": "Top 12% of 1,501 Teams",
+  "org": "Physics Brawl Online 2025, Charles University",
+  "date": "2025",
+  "detail": "Team Pulse Group",
+  "url": "https://www.linkedin.com/feed/update/urn:li:activity:7407028969503600641/"
+ }
 ];
 
 window.CERTS = [
@@ -437,7 +573,7 @@ window.CERTS = [
   "image": "certificates/kaggle-machine-learning.jpg"
  },
  {
-  "name": "Hadoop Foundations – Level 1",
+  "name": "Hadoop Foundations - Level 1",
   "issuer": "IBM",
   "date": "Dec 2025",
   "id": "0a93d971b0a342178cc2c12ccd99805c",
@@ -445,7 +581,7 @@ window.CERTS = [
   "category": "Cloud, Data & Engineering"
  },
  {
-  "name": "Spark – Level 1",
+  "name": "Spark - Level 1",
   "issuer": "IBM",
   "date": "Dec 2025",
   "id": "",
@@ -453,7 +589,7 @@ window.CERTS = [
   "category": "Cloud, Data & Engineering"
  },
  {
-  "name": "Big Data Foundations – Level 1",
+  "name": "Big Data Foundations - Level 1",
   "issuer": "IBM",
   "date": "Dec 2025",
   "id": "",
@@ -497,7 +633,7 @@ window.CERTS = [
   "image": "certificates/aws-machine-learning.jpg"
  },
  {
-  "name": "Domain 1 Review: AWS Certified DevOps Engineer – Professional (DOP-C02)",
+  "name": "Domain 1 Review: AWS Certified DevOps Engineer - Professional (DOP-C02)",
   "issuer": "AWS Training & Certification",
   "date": "Dec 2025",
   "id": "",
@@ -515,7 +651,7 @@ window.CERTS = [
   "image": "certificates/aws-cloud-practitioner-essentials.jpg"
  },
  {
-  "name": "Domain 4 Review: AWS Certified Generative AI Developer – Professional (AIP-C01)",
+  "name": "Domain 4 Review: AWS Certified Generative AI Developer - Professional (AIP-C01)",
   "issuer": "AWS Training & Certification",
   "date": "Dec 2025",
   "id": "",
@@ -533,7 +669,7 @@ window.CERTS = [
   "image": "certificates/aws-prompt-engineering-amazon-q.jpg"
  },
  {
-  "name": "Introduction to Generative AI – Art of the Possible",
+  "name": "Introduction to Generative AI - Art of the Possible",
   "issuer": "AWS Training & Certification",
   "date": "Dec 2025",
   "id": "",
@@ -542,7 +678,7 @@ window.CERTS = [
   "image": "certificates/aws-generative-ai.jpg"
  },
  {
-  "name": "Data Engineering on AWS – Foundations",
+  "name": "Data Engineering on AWS - Foundations",
   "issuer": "AWS Training & Certification",
   "date": "Dec 2025",
   "id": "",
