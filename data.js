@@ -1,4 +1,4 @@
-// Research, honors and certificates from LinkedIn (updated 2026-10-13). Edit freely.
+// Research, honors and certificates from LinkedIn (updated 2026-10-19). Edit freely.
 window.RESEARCH = [
  {
   "title": "CausalInvariantFlow: Calibrated Physics-constrained Flow Matching for Rare-event Forecasting in Chaotic Dynamical Systems under Known Interventions",
@@ -119,6 +119,13 @@ window.RESEARCH = [
 
 window.HONORS = [
  {
+  "title": "Gold Award, Grade 12",
+  "org": "Vanda International Junior Science Olympiad (VIJSO) 2026",
+  "date": "Oct 2026",
+  "detail": "421 students from 218 schools in 25 countries",
+  "url": "certificates/vanda-vijso-2026-gold.jpg"
+ },
+ {
   "title": "Special Honor",
   "org": "International Youth Math Challenge (IYMC)",
   "date": "Oct 2026",
@@ -141,7 +148,7 @@ window.HONORS = [
   "title": "2x Gold Medalist",
   "org": "Vanda Science Olympiad",
   "date": "",
-  "detail": "Two gold medals for scientific reasoning and problem solving"
+  "detail": "Two gold medals, including the 2026 VIJSO Gold Award"
  },
  {
   "title": "Top 12% of 1,501 Teams",
@@ -183,7 +190,7 @@ window.CERTS = [
   "date": "Aug 2026",
   "id": "",
   "url": null,
-  "category": "Research & Fellowships",
+  "category": "Competitions & Awards",
   "image": "certificates/project-q2-research-investigation.jpg"
  },
  {
@@ -883,6 +890,38 @@ window.CERTS = [
   "date": "Dec 2025",
   "id": "",
   "url": "https://www.life-global.org/certificate/b0771930-ff0b-49f1-9a84-28591afc9a2e",
+  "category": "Business & Leadership"
+ },
+ {
+  "name": "Gold Award, Grade 12, Vanda International Junior Science Olympiad",
+  "issuer": "Vanda International Junior Science Olympiad",
+  "date": "Oct 2026",
+  "id": "A0883798",
+  "image": "certificates/vanda-vijso-2026-gold.jpg",
+  "category": "Competitions & Awards"
+ },
+ {
+  "name": "Data Science & Analytics",
+  "issuer": "HP LIFE",
+  "date": "Dec 2025",
+  "id": "",
+  "url": "https://www.life-global.org/certificate/349b2072-b55c-4d1e-a2ff-a355e1195cdf",
+  "category": "Data Science & Analytics"
+ },
+ {
+  "name": "AI for Beginners",
+  "issuer": "HP LIFE",
+  "date": "Dec 2025",
+  "id": "",
+  "url": "https://www.life-global.org/certificate/7793b6cb-5a05-4a08-985f-c2cf51ad574e",
+  "category": "AI & Machine Learning"
+ },
+ {
+  "name": "AI for Business Professionals",
+  "issuer": "HP LIFE",
+  "date": "Dec 2025",
+  "id": "",
+  "url": "https://www.life-global.org/certificate/c7740998-dd26-4cf5-8a58-60c97a73e625",
   "category": "Business & Leadership"
  }
 ];
