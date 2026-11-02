@@ -1,4 +1,4 @@
-// Research, honors and certificates from LinkedIn (updated 2026-10-19). Edit freely.
+// Research, honors and certificates from LinkedIn (updated 2026-11-02). Edit freely.
 window.RESEARCH = [
  {
   "title": "CausalInvariantFlow: Calibrated Physics-constrained Flow Matching for Rare-event Forecasting in Chaotic Dynamical Systems under Known Interventions",
@@ -160,6 +160,14 @@ window.HONORS = [
 ];
 
 window.CERTS = [
+ {
+  "name": "AI and Machine Learning Essentials with Python (Specialization)",
+  "issuer": "University of Pennsylvania",
+  "date": "Oct 2026",
+  "id": "DBRGXIUQ6T8T",
+  "url": "https://www.coursera.org/account/accomplishments/specialization/DBRGXIUQ6T8T",
+  "category": "AI & Machine Learning"
+ },
  {
   "name": "Statistics for Data Science Essentials",
   "issuer": "University of Pennsylvania",
