@@ -1,4 +1,4 @@
-// Research, honors and certificates from LinkedIn (updated 2026-11-02). Edit freely.
+// Research, honors and certificates from LinkedIn (updated 2026-11-09). Edit freely.
 window.RESEARCH = [
  {
   "title": "CausalInvariantFlow: Calibrated Physics-constrained Flow Matching for Rare-event Forecasting in Chaotic Dynamical Systems under Known Interventions",
@@ -160,6 +160,14 @@ window.HONORS = [
 ];
 
 window.CERTS = [
+ {
+  "name": "AI Infrastructure and Operations Fundamentals",
+  "issuer": "NVIDIA",
+  "date": "Nov 2026",
+  "id": "LPXALQ0THRHC",
+  "url": "https://www.coursera.org/account/accomplishments/records/LPXALQ0THRHC",
+  "category": "Cloud, Data & Engineering"
+ },
  {
   "name": "AI and Machine Learning Essentials with Python (Specialization)",
   "issuer": "University of Pennsylvania",
